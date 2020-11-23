@@ -97,6 +97,7 @@ p{
     text-align: center;
     color: black;
     opacity: 1.0;
+    font-size: 3vw;
     /* font-weight: bold; */
 }
 #result, #kms{

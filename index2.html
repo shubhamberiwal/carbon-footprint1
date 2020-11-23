@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>22 second Carbon</title>
+    <title>Grocery Carbon</title>
     
     <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/> -->
     <!-- <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/> -->
@@ -15,8 +15,15 @@
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
     
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
 
@@ -30,12 +37,12 @@
 
 
 <body>
-
+    <script>document.body.className += ' fade-out';</script>
 
     <nav class="navbar navbar-expand-lg bg-company-red navbar-dark bg-dark fixed-top">
 		<div class="container">
 			<div class="navbar-header">
-		 	    <a class="navbar-brand" href="http://www.google.com"><i class="fas fa-filter"></i></span> Carbonator</a>
+		 	    <a class="navbar-brand" href=""><i class="fas fa-filter"></i></span> Carbonator</a>
 		  	</div>
 		  	<button class="navbar-toggler" type="button" data-toggle="collapse"data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
@@ -44,16 +51,55 @@
 
 		  	<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			    <ul class="navbar-nav mr-auto">
-			      <li class="nav-item active">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Sources
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown" >
+                          <a class="dropdown-item" href="https://la-droguerie-eco.com/en/carbon-footprint/">Soaps</a>
+                          <a class="dropdown-item" href="https://www.researchgate.net/publication/257408797_Carbon_footprint_analysis_in_plastics_manufacturing#:~:text=Currently%2C%20most%20of%20the%20common,of%20corresponding%20plastics%20%5B27%5D%20">Plastics</a>
+                          <a class="dropdown-item" href="https://en.wikipedia.org/wiki/Polypropylene">Polypropylene</a>
+                          <div class="dropdown-divider"></div>
+                        </div>
+                    </li>
+			      <!-- <li class="nav-item active">
 			        <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
-			      </li>
+			      </li> -->
 			    
                 </ul>
                 
-			    <ul class="navbar-nav navbar-right">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">So How Disposal?</a>
+			    <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          So How Disposal?
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown" >
+                          <a class="dropdown-item" href="https://timesofindia.indiatimes.com/spotlight/simple-and-effective-best-ways-to-dispose-of-plastic/articleshow/73656321.cms">Plastic</a>
+                          <a class="dropdown-item" href="https://www.greenhospitality.io/post/soap-recycling-what-how-and-why">Soaps</a>
+                          <a class="dropdown-item" href="https://www.azocleantech.com/article.aspx?ArticleID=240">Polypropylene Packaging</a>
+                          <div class="dropdown-divider"></div>
+                          <!-- <div class="btn-group dropleft">
+                            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Extras
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#"></a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                               Dropdown menu links
+                            </div>
+                          </div> -->
+                          <!-- <a class="dropdown-item" href="#">Something else here</a> -->
+                        </div>
                     </li>
+                    <!-- <li class="nav-item active">
+                        <a class="nav-link" href="#">So How Disposal?</a>
+                    </li> -->
+
+
+                    
+
+
 
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -64,8 +110,8 @@
                           <a class="dropdown-item" href="#">Ahrar Hussain</a>
                           <a class="dropdown-item" href="#">Rishikesh Vyas</a>
                           <a class="dropdown-item" href="#">Shubham Beriwala</a>
-                          <div class="dropdown-divider"></div>
-                          <a class="dropdown-item" href="#">Something else here</a>
+                        <div class="dropdown-divider"></div>
+                          <!-- <a class="dropdown-item" href="#">Something else here</a> -->
                         </div>
                     </li>
 
@@ -77,8 +123,10 @@
 
     <div class="container">
     <div class="jumbotron">
-            <h1><i class="fas fa-globe-europe"></i> Carbon Footprint App</h1>
-			<p>Your only place to know the actual Footprint you want to get rid off!</p>
+            <h1><i class="fas fa-globe-europe"></i> Grocery Carbon</h1>
+			<p><span class="quotes">"</span>Little drops of water; Little grains of sand;
+             Make the mighty ocean; And the pleasant land.<span class="quotes">"</span></p>
+            <!-- Your only place to know the actual Footprint you want to get rid off! -->
     </div>
     </div>
     
@@ -87,10 +135,13 @@
         <!-- <input type="text" name="" id="1input" placeholder="Add New Product"> -->
 
     <ul>
+        <li class="li2" style="text-align: center;">
+            Sm = Rs10; Md = Rs30; Lg = Rs60
+        </li>
 
         <li class="li2">
             <!-- <div id="centeer"> -->
-                <span class = "span11"><i class='fas fa-trash-alt'></i></span> Chocolate 
+                <span class = "span11"><i class='fas fa-trash-alt'></i></span> Chocolate ------------
                 <select id="chocolates_size" name="chocolates_size">
                     <option value="small">sm</option>
                     <option value="medium">md</option>
@@ -101,7 +152,7 @@
         </li>
 
         <li class="li2">
-            <span class = "span11"><i class='fas fa-trash-alt'></i></span> Chips 
+            <span class = "span11"><i class='fas fa-trash-alt'></i></span> Chips ------------------
             <select id="chips_size" name="chips_size">
                 <option value="small">sm</option>
                 <option value="medium">md</option>
@@ -111,7 +162,7 @@
         </li>
 
         <li class="li2">
-            <span class = "span11"><i class='fas fa-trash-alt'></i></span> Biscuits 
+            <span class = "span11"><i class='fas fa-trash-alt'></i></span> Biscuits ---------------
             <select id="biscuits_size" name="biscuits_size">
                 <option value="small">sm</option>
                 <option value="medium">md</option>
@@ -121,7 +172,7 @@
         </li>
 
         <li class="li2">
-            <span class = "span11"><i class='fas fa-trash-alt'></i></span> Soaps 
+            <span class = "span11"><i class='fas fa-trash-alt'></i></span> Soaps -----------------
             <select id="soaps_size" name="soaps_size">
                 <option value="bar">bar</option>
                 <!-- <option value="medium">md</option> -->
@@ -138,14 +189,23 @@
 
 
     </div>
+
+    <!-- <div class="container1" style="display: inline;"> 
+        <ul>
+            <li class="li2">
+                Sm = Rs 10 Md = Rs30 Lg = 60Rs
+            </li>
+        </ul>
+    </div> -->
+
     <br>
 
     <div id="container2">
         <h2 style = "text-align: center;">DID YOU KNOW?</h2>
         <br>
-        <h1 id="presult">The items you have bought leave a carbon footprint of: <div id="result"></div></h1>
+        <h1 class="presult">The items you have bought leave a carbon footprint of: <div id="result"></div></h1>
         <br>
-        <h1 id="presult">This is similar to an average Indian car driving for <div id="kms"></div></h1>
+        <h1 class="presult">This is equivalent to an average Indian car driving for <div id="kms"></div></h1>
         <br>
         <br>
     </div>

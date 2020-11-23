@@ -1,5 +1,7 @@
 
-
+$(function() {
+    $('body').removeClass('fade-out');
+});
 console.log("An average Indian Car leaves a carbon footprint of 155.2g/km");
 
 function wonder(){
@@ -58,14 +60,14 @@ function wonder(){
     console.log(equi);
     
     var result = document.querySelector("#result");
-    result.textContent = carbon_footprint+" grams";
+    result.textContent = carbon_footprint+" gms of CO2";
     var kms = document.querySelector("#kms");
     kms.textContent = equi+" km";
     // var container2 = document.querySelector("#container2");
     // var container22 = document.querySelector("#container2:hidden");
     // container22.first().fadeIn("slow");
     // container2.style.display = "block";
-    $( "#container2" ).first().fadeIn( "very slow" );
+    $( "#container2" ).first().fadeIn( 1000 );
     
 }
 
